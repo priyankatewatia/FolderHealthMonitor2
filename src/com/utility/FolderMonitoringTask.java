@@ -14,9 +14,9 @@ import java.util.TimerTask;
 
 public class FolderMonitoringTask extends TimerTask {
 
-	Path securedFolder = Paths.get("/Users/pt/secured/");
+	Path securedFolder = Paths.get("/Users/pt/secured");
  
-	Path archiveFolder = Paths.get("/Users/pt/archive/");
+	Path archiveFolder = Paths.get("/Users/pt/archive");
 	
 	@Override
 	public void run() {	
